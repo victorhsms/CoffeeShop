@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,12 +8,132 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Cedarville+Cursive&family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mobileStyle.css">
+    <link rel="stylesheet" href="header-style.css">
     <title>Samwayle - Home</title>
 </head>
 <body>
-    
-    
+    <div id="header-top">
+        <header>
+            <a class="img-header" href="#nav"><img src="./Imagens/Samwayle.png" alt="Samwayle's logo"></a>
+            <a class="img-header-mobile" href="#nav"><img src="./Imagens/Samwayle-mobile.png" alt="Samwayle's logo"></a>
+            <nav id="nav">
+                <button id="btn-mobile"><span id="hamburguer"></span></button>
+                <ul id="menu">
+                    <li><a class="presentation-anchor" href="#presentation">Home</a></li>
+                    <li><a href="#aboutus">About us</a></li>
+                    <li><a href="#promotion">Promotion</a></li>
+                    <li><a href="#grid-menu">Shop</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li class="menu-button"><button>Contact Us</button></li>
+                    <li class="social-menu">
+                        <div>
+                            <a href="https://twitter.com/"><img src="./Imagens/twitter-mobile.png" width="45px" height="45px" alt="Twitter's logo"></a>
+                            <a href="https://www.instagram.com/"><img src="./Imagens/instagram-mobile.png" width="45px" height="45px" alt="Instagram's logo"></a>
+                            <a href="https://web.facebook.com/?_rdc=1&_rdr"><img src="./Imagens/facebook-mobile.png" width="45px" height="45px" alt="Facebook's logo"></a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <main>
+        <section id="presentation">
+            <div class="text-presentation">
+                <p>Drink coffee, enjoy with Samwyle</p>
+                <h2>Coffee Shop</h2>
+                <div><button onclick="document.location='#grid-menu'">Order here</button></div>
+            </div>
+            <div class="img-and-social">
+                <div class="img-presentation"><img src="./Imagens/Figure1.png" alt="Illustration of a pot with coffee"></div>
+                <div class="social-presentation">
+                    <a href="https://twitter.com/"><img src="./Imagens/twitter.png" width="32px" alt="Twitter's logo"></a>
+                    <a href="https://www.instagram.com/"><img src="./Imagens/instagram.png" width="32px" alt="Instagram's logo"></a>
+                    <a href="https://web.facebook.com/?_rdc=1&_rdr"><img src="./Imagens/facebook.png" width="32px"  alt="Facebook's logo"></a>
+                    <p>Follow us</p>
+                </div>
+            </div>
+        </section>
+        <section id="aboutus">
+            <div class="img-aboutus">
+                <p>About us</p>
+                <img class="img-aboutus-desktop" src="./Imagens/Figure2.png" alt="Illustration of a cup of coffee">
+                <img class="img-aboutus-mobile" src="./Imagens/Figure2-mobile.png" alt="Illustration of a cup of coffee">
+            </div>
+            <div class="text-aboutus">
+                <h2>Coffee Shop Samwayle</h2>
+                <p>Only one moment - when the barista reaches out over the bar to transfer the cup to the outstretched hand of the buyer. But this is exactly the moment when a connection arises between us and our guests.</p>
+                <p>And we strive to do our best to maintain this connection - starting with our commitment to selecting the highest quality coffee in the world and ending with how we interact with guests and organizations to fulfill our obligations.</p>
+            </div>
+        </section>
+        <section id="promotion">
+            <div class="text-promotion">
+                <h2>Coffee of the day</h2>
+                <p>Americano coffee (Italian: Caffè Americano) is an espresso diluted with hot water. The presence of foam (cream) depends on how coffee and water are mixed.
+                Attention! The concepts of “American” and “American coffee” should not be confused. n the second case, this refers not to diluted espresso, but to a drink prepared through a filter system.</p>
+                <div><button onclick="document.location='#grid-menu'">Order now</button></div>
+            </div>
+            <div class="img-promotion">
+                <p>Promotion</p>
+                <img class="img-promotion-desktop" src="./Imagens/Figure3.png" alt="Illustration of a american coffee cup">
+                <img class="img-promotion-mobile" src="./Imagens/Figure3-mobile.png" alt="Illustration of a american coffee cup">
+
+            </div>
+        </section>
+        <section id="grid-menu">
+            <div class="grid-item">
+                <h3>Americano</h3>
+                <p>The name Latte (from Italian “milk”) speaks about the main ingredient of the drink. It is recommended to take fat milk - at least 3.2%. In addition to it, milk foam.</p>
+                <div><button>Order now</button></div>
+            </div>
+            <div class="grid-item">
+                <h3>Latte</h3>
+                <p>The name Latte (from Italian “milk”) speaks about the main ingredient of the drink. It is recommended to take fat milk - at least 3.2%. In addition to it, milk foam.</p>
+                <div><button>Order now</button></div>
+            </div>
+            <div class="grid-item">
+                <h3>Espresso</h3>
+                <p>Espresso - black coffee made in a coffee machine or a special coffee machine, where hot water is passed through pressed ground beans at a pressure.</p>
+                <div><button>Order now</button></div>
+            </div>
+        </section>
+        <section id="contacts">
+            <div class="img-contacts">
+                <p>Contacts</p>
+                <img src="./Imagens/Map.png" alt="New York's map">
+            </div>
+            <div class="adress-contacts">
+                <h2>Our address</h2>
+                <p>110 St-Cathedral Pkwy Station</p>
+                <p>4310 94th St, Flushing</p>
+                <p id="show-contacts">94-54 Corona Ave., Elmhurst</p>
+                <p id="show-contacts-two">5627 Van Doren St, Queens</p>
+                <button onclick="seeMore()" id="btn-see-more">See more address</button>
+                <script>
+                    function seeMore() {
+                        var moreText = document.getElementById('show-contacts');
+                        var moreText2 = document.getElementById('show-contacts-two');
+                        var btnSeeMore = document.getElementById('btn-see-more');
+
+                        if (moreText.style.display === 'none') {
+                            moreText.style.display = 'block';
+                            moreText2.style.display = 'block';
+                            btnSeeMore.innerHTML='See less address';
+                        } else {
+                            moreText.style.display = 'none';
+                            moreText2.style.display = 'none';
+                            btnSeeMore.innerHTML='See more address';
+                        }
+                    }
+                </script>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p><span id="year"></span> (c) - Samwyle bandtitos</p>
+        <script>
+            document.getElementById("year").innerHTML = new Date().getFullYear();
+        </script>
+    </footer>
     <script type="text/javascript" src="./script.js"></script>
 </body>
 </html>

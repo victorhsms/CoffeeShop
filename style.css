@@ -1,0 +1,463 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    list-style: none;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+}
+
+/* presentation */
+#presentation {
+    padding: 9.813rem 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.text-presentation {
+    display: flex;
+    flex-direction: column;
+    gap: 1.75em;
+}
+.text-presentation p {
+    font-family: 'Cedarville Cursive', sans-serif;
+    font-size: 28px;
+}
+
+.text-presentation h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 63px;
+}
+
+.text-presentation button {
+    font-family: 'Josefin Sans', sans-serif;
+    background: #2D635E;
+    padding: 17px 67px;
+    font-size: 20px;
+    color: #FFF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social-presentation {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.img-and-social {
+    display: flex;
+    align-items: flex-end;
+}
+
+.img-presentation {
+    margin-right: 40px;
+}
+
+.social-presentation a {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.social-presentation p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 28px;
+    color: #444A4A;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    margin-top: 123px;
+    white-space: nowrap;
+    width: 23px;
+    padding-left: 1rem;
+}
+
+/* About us */
+
+#aboutus {
+    width: 1128px;
+    margin: 0 auto;
+    display: flex;
+    padding: 67px 0;
+}
+
+.img-aboutus {
+    margin-right: 90px;
+}
+
+.img-aboutus p {
+    font-family: 'Cedarville Cursive', sans-serif;
+    font-size: 28px;
+}
+
+.img-aboutus-mobile {
+    display: none;
+}
+
+.text-aboutus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.text-aboutus h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.text-aboutus p {
+    font-size: 19px;
+    line-height: 36px;
+    color: #444A4A;
+}
+
+/* promotion */
+
+#promotion {
+    width: 1128px;
+    margin: 0 auto;
+    padding: 77px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-promotion {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.text-promotion h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.text-promotion p {
+    font-size: 19px;
+    line-height: 36px;
+    color: #444A4A;
+}
+
+.text-promotion button {
+    width: 235px;
+    padding: 17px 0;
+    background: #2D635E;
+    border-radius: 5px;
+    color: #FFF;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.img-promotion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.img-promotion p {
+    font-family: 'Cedarville Cursive', sans-serif;
+    font-size: 28px;
+}
+
+.img-promotion-mobile {
+    display: none;
+}
+
+/* grid menu */
+
+#grid-menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.875rem;
+    background: #E3EBE7;
+    padding: 35px 0;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    padding: 44px 54px 47px;
+    background: #FFFFFF;
+    box-shadow: 0px 23px 34px rgba(35, 57, 55, 0.17);
+    border-radius: 25px;
+    height: min-content;
+}
+
+.grid-item h3 {
+    font-size: 28px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+.grid-item p {
+    width: 224px;
+    font-size: 19px;
+    line-height: 36px;
+    color: #444A4A;
+}
+
+.grid-item button {
+    padding: 17px 67px;
+    background: #2D635E;
+    color: #FFF;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif; 
+    cursor: pointer;
+}
+
+/* contacts */
+
+#contacts {
+    display: flex;
+    justify-content: space-between;
+    width: 1042px;
+    margin: 0 auto;
+    padding: 62px 0;
+}
+
+.img-contacts {
+    width: 62%;
+}
+
+.img-contacts p {
+    font-family: 'Cedarville Cursive', sans-serif;
+    font-size: 28px;
+}
+
+.img-contacts img {
+    width: 100%;
+}
+
+.adress-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.adress-contacts h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    margin-bottom: 1.75rem;
+}
+
+.adress-contacts p {
+    font-size: 19px;
+    color: #444A4A;
+    line-height: 36px;
+}
+
+#btn-see-more {
+    display: none;
+    padding: 17px 31px;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #444A4A;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.17);
+    border-radius: 5px;
+    background: #FFF;
+    cursor: pointer;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    font-size: 19px;
+    line-height: 36px;
+    color: #444A4A;
+    margin: 3px 0 6px;
+}
+
+@media screen and (max-width: 1439px) {
+    #presentation {
+        width: 83.33vw;
+    }
+    
+    #aboutus {
+        width: 78.33vw;
+    }
+    
+    #promotion {
+        width: 78.33vw;
+    }
+
+    .text-promotion {
+        width: 54.52%   ;
+    }
+
+    #contacts {
+        width: 72.36vw;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .img-presentation {
+        width: 28.47vw;
+    }
+
+    .img-presentation img {
+        width: 100%;
+    }
+
+    #aboutus {
+        align-items: center;
+    }
+
+    #promotion {
+        align-items: center;
+    }
+    
+} 
+
+@media screen and (max-width: 904px) {
+    #presentation {
+        width:  78.33vw;
+        justify-content: center;
+        height: 26rem;
+    }
+
+    .img-presentation {
+        display: none;
+    }
+
+    .social-presentation {
+        display: none;
+    }
+
+    .text-presentation {
+        align-items: center;
+    }
+    
+    #aboutus {
+        flex-direction: column;
+    }
+    
+    .img-aboutus {
+        width: 60vw;
+        margin: 0 0 3.75rem;
+    }
+    .img-aboutus p {
+        display: none;
+    }
+
+    .img-aboutus-desktop {
+        display: none;
+    }
+
+    .img-aboutus-mobile {
+        display: block;
+        width: 100%;
+    }
+    
+    #promotion {
+        flex-direction: column-reverse;
+    }
+
+    .text-promotion {
+        width: 100%;
+    }
+
+    .text-promotion button {
+        display: none;
+    }
+
+    .img-promotion-desktop {
+        display: none;
+    }
+
+    .img-promotion-mobile {
+        display: block;
+    }
+
+    .img-promotion {
+        width: 60vw;
+        margin: 0 0 3.75rem;
+    }
+
+    .img-promotion p {
+        display: none;
+    }
+
+    .img-promotion img {
+        width: 100%;
+    }
+
+    #grid-menu {
+        flex-wrap: wrap-reverse;
+    }
+
+    #contacts {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-contacts p {
+        display: none;
+    }
+
+    .img-contacts {
+        width: 60vw;
+    }
+
+    .img-contacts img {
+        width: 100%;
+        margin: 0 0 3.75rem;
+    }
+
+    .adress-contacts {
+        text-align: center;
+    }
+
+    #show-contacts {
+        display: none;
+    }
+
+    #show-contacts-two {
+        display: none;
+    }
+
+    #btn-see-more {
+        display: block;
+    }
+}
+@media screen and (max-width: 550px) {
+    .text-presentation p {
+        font-size: 19px;
+    }
+
+    .text-presentation h2 {
+        font-size: 54px;
+        line-height: 54px;
+        font-weight: 400;
+    }
+
+    .img-aboutus {
+        width: 100vw;
+    }
+
+    .img-promotion {
+        width: 100vw;
+    }
+
+    .img-contacts {
+        width: 100vw;
+    }
+}
